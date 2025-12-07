@@ -26,5 +26,5 @@ COPY --from=builder /usr/src/app/target/*.war /usr/local/tomcat/webapps/ROOT.war
 # Expose Tomcat's default port
 EXPOSE 8080
 
-# Start Tomcat
+# Start Tomcatt
 CMD ["catalina.sh", "run"]
